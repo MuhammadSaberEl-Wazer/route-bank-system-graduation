@@ -47,7 +47,7 @@ public:
 
 	void transfereTo(Clint& a, int amount) {
 		if (amount <= balance) {
-			a.credit(amount);
+			a.deposit(amount);
 			balance -= amount;
 		}
 		else {
