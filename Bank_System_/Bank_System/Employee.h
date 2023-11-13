@@ -48,7 +48,7 @@ public:
                 return &clients[i];
             }
         }
-        return nullptr; // Client not found
+        return nullptr; 
     }
 
    
