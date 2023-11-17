@@ -13,7 +13,7 @@ protected:
 public:
     // constructor
     Person() :id(0) {}
-    Person(int id, string name, string password) {
+    Person(int id, string name, string password){
         set_id(id);
         set_name(name);
         set_password(password);

@@ -12,35 +12,24 @@ public:
 				}
 			}
 		}
-		return false;
-
 	}
 	static bool isValidPassword(string password) {
 		if (password.length() >= 8 && password.length() <= 20) {
 			return true;
 		}
-		return false;
 	}
 
 	static bool isValidBalance(double balance) {
-		if (balance >= 1500)
+		if (balance >= 1500.0)
 		{
 			return true;
 		}
-		else {
-			cout << "Invalid balance " << endl;
-			return false;
-		};
 	}
 	static bool isValidSalary(double salary) {
-		if (salary >= 5000)
+		if (salary >= 5000.0)
 		{
 			return true;
 		}
-		else {
-			cout << "Min Salary is 5000  " << endl;
-			return false;
-		};
 	}
 
 };
