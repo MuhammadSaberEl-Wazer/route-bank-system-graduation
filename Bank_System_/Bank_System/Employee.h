@@ -16,7 +16,7 @@ public:
     // Constructor
     Employee(double salary)
     {
-        name = 0.0;
+        salary = 0.0;
     }
 
     Employee(int id, string name, string password, double salary)
