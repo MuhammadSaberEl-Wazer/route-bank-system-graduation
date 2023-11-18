@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include "Person.h"
-#include "Clint.h"
+//#include "Clint.h"
 
 //const int MAX_CLIENTS = 100;  
 
@@ -14,10 +14,9 @@ private:
 
 public:
     // Constructor
-    Employee(int id, string name, string password, double salary)
-        {
-        name = name;
-    }
+    Employee():salary(0){}
+    Employee(int id, string name, string password, double salary):Person(id, name, password)
+    {set_salary(salary);}
 
 
     void set_salary(double salary) {
