@@ -23,11 +23,17 @@ public:
         Person::id = id;
     }
     void set_name(string name) {
-        if (Validation::isVaildname) {
-            Person::name = name;
-        }
-        else {
-            cout << "Invalid name " << endl;
+        while (true)
+        {
+            if (Validation::isVaildname(name)) {
+                Person::name = name;
+                return;
+            }
+            else {
+                cout << "Invalid name...\n";
+                cout << "Please enter other name: ";
+                getline(cin, name);
+            }
         }
     }
     void set_password(string password) {

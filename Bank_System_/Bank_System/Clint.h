@@ -9,16 +9,15 @@ public:
 
 
 	//constractors
-	Clint() : balance(0) {}
-	Clint(int id, string name, string password, float balance)
+	Clint() :Person(){
+		this->balance = 0.0;
+	}
+	Clint(int id, string name, string password, float balance):Person(id, name, password)
 	{
-		set_id(id);
-		set_name(name);
-		set_password(password);
 		set_balance(balance);
 	}
 
-	void set_balance(int balance) {
+	void set_balance(float balance) {
 
 		if (Validation::isValidBalance) {
 			Clint::balance = balance;
