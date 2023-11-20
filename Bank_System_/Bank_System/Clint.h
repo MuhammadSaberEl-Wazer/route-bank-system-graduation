@@ -9,7 +9,9 @@ public:
 
 
 	//constractors
-	Clint() : balance(0) {}
+	Clint() :Person(){
+		this->balance = 0.0;
+	}
 	Clint(int id, string name, string password, float balance):Person(id, name, password)
 	{
 		set_balance(balance);
