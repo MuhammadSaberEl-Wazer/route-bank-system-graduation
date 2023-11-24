@@ -131,6 +131,7 @@
     <ClCompile Include="Bank_System.cpp" />
     <ClCompile Include="Clint.cpp" />
     <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Validation.cpp" />
   </ItemGroup>
@@ -138,6 +139,7 @@
     <ClInclude Include="Admin.h" />
     <ClInclude Include="Clint.h" />
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="FileManager.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Validation.h" />
   </ItemGroup>

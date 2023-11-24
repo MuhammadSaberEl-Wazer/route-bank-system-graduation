@@ -17,13 +17,19 @@ public:
 		set_balance(balance);
 	}
 
-	void set_balance(float balance) {
+	void set_balance(double balance) {
+		while (true) {
+			if (Validation::isValidBalance(balance)) {
+				this->balance = balance;
+				return;
+			}
+			else {
 
-		if (Validation::isValidBalance) {
-			Clint::balance = balance;
-		}
-		else {
-			cout << "Min balance is 1500  " << endl;
+				cout << "Min balance is 1500 " << endl;
+				cout << "Enter balance: ";
+				cin >> balance;
+				cin.ignore(1, '\n');
+			}
 		}
 	}
 

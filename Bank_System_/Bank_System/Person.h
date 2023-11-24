@@ -13,7 +13,7 @@ protected:
 public:
     // constructor
     Person() :id(0) {}
-    Person(int id, string name, string password){
+    Person(int id, string name, string password) {
         set_id(id);
         set_name(name);
         set_password(password);
@@ -37,14 +37,23 @@ public:
         }
     }
     void set_password(string password) {
-        if (Validation::isValidPassword) {
-            Person::password = password;
-        }
-        else
-        {
-            cout << "Invalid pasword " << endl;
+        while (true) {
+            if (Validation::isValidPassword(password)) {
+                this->password = password;
+                return;
+            }
+            else {
+                cout << "Invalid Password" << endl;
+                cout << "Enter Valid Password: ";
+                cin >> password;
+                getline(cin, password);
+                //cin.ignore(1, '\n');
+
+            }
+
         }
     }
+
     // getters
     int get_id() {
         return id;
