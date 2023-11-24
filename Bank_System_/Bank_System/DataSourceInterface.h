@@ -4,8 +4,8 @@
 #include "Employee.h"
 #include "Admin.h"
 class DataSourceInterface
-{
-public:
+protected:
+
 	virtual void addClient(Clint) = 0;
 	virtual void addEmployee(Employee) = 0;
 	virtual void addAdmin(Admin) = 0;

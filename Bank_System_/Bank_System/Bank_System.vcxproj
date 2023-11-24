@@ -130,16 +130,28 @@
     <ClCompile Include="Admin.cpp" />
     <ClCompile Include="Bank_System.cpp" />
     <ClCompile Include="Clint.cpp" />
+    <ClCompile Include="DataSourceInterface.cpp" />
     <ClCompile Include="Employee.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="FileManager.cpp" />
+=======
+    <ClCompile Include="Files.cpp" />
+    <ClCompile Include="FilesHelper.cpp" />
+>>>>>>> 20d2f150ebcb815af7724376d6f4854ed76234d8
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Validation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Admin.h" />
     <ClInclude Include="Clint.h" />
+    <ClInclude Include="DataSourceInterface.h" />
     <ClInclude Include="Employee.h" />
+<<<<<<< HEAD
     <ClInclude Include="FileManager.h" />
+=======
+    <ClInclude Include="Files.h" />
+    <ClInclude Include="FilesHelper.h" />
+>>>>>>> 20d2f150ebcb815af7724376d6f4854ed76234d8
     <ClInclude Include="Person.h" />
     <ClInclude Include="Validation.h" />
   </ItemGroup>
