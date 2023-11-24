@@ -1,0 +1,34 @@
+﻿  Admin.cpp
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Person.h(40,25): warning C4551: function call missing argument list
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Employee.h(27,25): warning C4551: function call missing argument list
+  Bank_System.cpp
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Person.h(40,25): warning C4551: function call missing argument list
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Clint.h(22,19): warning C4551: function call missing argument list
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Employee.h(27,25): warning C4551: function call missing argument list
+  Clint.cpp
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Person.h(40,25): warning C4551: function call missing argument list
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Clint.h(22,19): warning C4551: function call missing argument list
+  DataSourceInterface.cpp
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Person.h(40,25): warning C4551: function call missing argument list
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Clint.h(22,19): warning C4551: function call missing argument list
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Employee.h(27,25): warning C4551: function call missing argument list
+  Employee.cpp
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Person.h(40,25): warning C4551: function call missing argument list
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Employee.h(27,25): warning C4551: function call missing argument list
+  Files.cpp
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Person.h(40,25): warning C4551: function call missing argument list
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Clint.h(22,19): warning C4551: function call missing argument list
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Employee.h(27,25): warning C4551: function call missing argument list
+  FilesHelper.cpp
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Person.h(40,25): warning C4551: function call missing argument list
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Clint.h(22,19): warning C4551: function call missing argument list
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Employee.h(27,25): warning C4551: function call missing argument list
+  Person.cpp
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Person.h(40,25): warning C4551: function call missing argument list
+  Validation.cpp
+  Generating Code...
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Validation.h(33): warning C4715: 'Validation::isValidSalary': not all control paths return a value
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Validation.h(27): warning C4715: 'Validation::isValidBalance': not all control paths return a value
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Validation.h(20): warning C4715: 'Validation::isValidPassword': not all control paths return a value
+C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\Bank_System\Validation.h(15): warning C4715: 'Validation::isVaildname': not all control paths return a value
+  Bank_System.vcxproj -> C:\Users\KIMOSTORE\source\repos\courseProject\route-bank-system-graduation\Bank_System_\x64\Debug\Bank_System.exe

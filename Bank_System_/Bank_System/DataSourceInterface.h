@@ -1,12 +1,12 @@
 #pragma once
 #include "Person.h"
-#include "Client.h"
+#include "Clint.h"
 #include "Employee.h"
 #include "Admin.h"
 class DataSourceInterface
 {
-public:
-	virtual void addClient(Client) = 0;
+protected:
+	virtual void addClient(Clint) = 0;
 	virtual void addEmployee(Employee) = 0;
 	virtual void addAdmin(Admin) = 0;
 	virtual void getAllClients() = 0;
