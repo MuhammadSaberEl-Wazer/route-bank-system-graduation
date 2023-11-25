@@ -1,0 +1,83 @@
+#pragma once
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+#include "DataSourceInterface.h"
+#include "FilesHelper.h"
+using namespace std;
+
+
+class FileManager :
+    public DataSourceInterface
+{
+    void addClient(Clint client, string filename) {
+        FilesHelper::saveClient(client,filename);
+   }
+
+    void addEmployee(string filename ,string lastidfile ,Employee employee)  {
+        FilesHelper::saveEmployee(filename,lastidfile,employee);
+    }
+
+    void addAdmin(string filename, string lastidfile, Employee admin) {
+        FilesHelper::saveEmployee(filename, lastidfile, admin);
+    }
+
+     void getAllClients() {
+        ifstream file("Clients.txt");
+        string line;
+         while (getline(file, line)) {
+             Clint client = Parser::parseToClient(line);
+             
+             clint.display_info();  
+         }
+         file.close();
+    }
+
+     void getAllEmployees() {
+         ifstream file("Employees.txt");
+         string line;
+         while (getline(file, line)) {
+             Employee e = Parser::parseToEmployees(line);
+
+             Employee.display_info();
+         }
+         file.close();
+     }
+
+     void getAllAdmins() {
+         ifstream file("Admins.txt");
+         string line;
+         while (getline(file, line)) {
+             Admin admins = Parser::parseToAdmins(line);
+
+             Admin.display_info();
+         }
+         file.close();
+     }
+
+    void removeAllClients() {
+        ofstream file("clients.txt", out | trunc);
+        if (!file.is_open()) {
+            cout << "Failed to open clients.txt" << endl;
+        }
+        file.close();
+    }
+
+    void removeAllEmployees(){
+        ofstream file("employees.txt", out | trunc);
+        if (!file.is_open()) {
+            cout << "Failed to open employees.txt" << endl;
+        }
+        file.close();
+    }
+
+    void removeAllAdmins() {
+        ofstream file("admins.txt", out | trunc);
+        if (!file.is_open()) {
+            cout << "Failed to open admins.txt" << endl;
+        }
+        file.close();
+    }
+};
+
